@@ -1,0 +1,33 @@
+California Housing Dataset
+
+Dataset Summary
+
+Instances: 20,640
+Attributes: 8 numeric, predictive features + 1 target
+Missing Values: None
+Feature Information
+MedInc — Median income in the block group
+HouseAge — Median house age in the block group
+AveRooms — Average number of rooms per household
+AveBedrms — Average number of bedrooms per household
+Population — Block group population
+AveOccup — Average number of household members
+Latitude — Block group latitude
+Longitude — Block group longitude
+
+Target Variable
+Median house value (in hundreds of thousands of dollars, i.e. $100,000 units)
+
+Notes
+This dataset was derived from the 1990 U.S. Census, with one row per census block group—the smallest geographical unit published by the U.S. Census Bureau (typically 600–3,000 people).
+Since average room and bedroom counts are given per household, these values can appear large in block groups with few households and many vacant homes (e.g., vacation areas).
+
+Source
+Originally from the StatLib repository:
+https://www.dcc.fc.up.pt/~ltorgo/Regression/cal_housing.html
+The dataset can be accessed programmatically via:
+sklearn.datasets.fetch_california_housing()
+
+Reference
+Pace, R. Kelley and Ronald Barry, Sparse Spatial Autoregressions,
+Statistics and Probability Letters, 33 (1997), pp. 291–297.
