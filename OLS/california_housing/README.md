@@ -4,6 +4,7 @@
 
 <h1>California Housing — Linear Modeling Study</h1>
 
+
 <p>
 A structured exploration of Ordinary Least Squares (OLS) applied to the California Housing dataset.
 The project examines baseline linear regression, feature engineering, polynomial expansion, and detailed diagnostics —
